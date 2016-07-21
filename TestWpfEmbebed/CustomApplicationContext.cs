@@ -10,7 +10,7 @@ namespace TestWpfEmbebed
         public CustomApplicationContext()
         {
             MainWindow win = new MainWindow();
-            //ElementHost.EnableModelessKeyboardInterop(win);
+            ElementHost.EnableModelessKeyboardInterop(win);
             win.Show();
         }
     }
